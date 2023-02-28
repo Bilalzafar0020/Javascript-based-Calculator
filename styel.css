@@ -20,8 +20,7 @@ header:hover{
     cursor:progress;
 }
 
-section{
-     margin-top:100px ; 
+section{ 
     border: 2px solid rgb(216, 67, 67); 
     display:flex ;
     flex-direction: column; 
@@ -30,7 +29,10 @@ section{
     background-color:#0f0f0f;
     border-radius: 18px ;
     box-shadow: 5px 5px 5px  black;
-    
+    width: 357px;
+    margin: auto;
+     margin-top: 5rem;
+     height: 397px;
 }
 .row1,.row2,.row3{
     display: flex;
@@ -82,15 +84,23 @@ div a:hover{
     padding: 3px;
 }
 
-@media screen and (orientation:landscape) {
-  section{
-     height: 671px;
-    font-weight: 140px;  }
-     header{
-        font-size: 170px;
-    
-     }    
-};
+@media  (max-width:425px) { 
+    section{
+        width: 260px;  
+        font-size: 11px;
+        padding-top: 1px;
+        margin-top: 30px;
+        padding-bottom: 6px;
+        height: 375px;
+    }
+     #add,#subt,#multi,#divide{
+   width: 85px;
+   height: 98px;
+   padding: 5px;
+  }  
+}
+
+  
 
 
 
